@@ -94,6 +94,7 @@ class ListingController extends Controller
 
         $listing->update($formFields);
 
+
         return back()->with('message', 'Listing updated successfully!');
     }
 
